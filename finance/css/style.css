@@ -1,0 +1,302 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-size:1.0em;
+	background:url(../images/body-bg.jpg) repeat-x top;
+}
+
+h1 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+	color:#333;
+	font-weight:bold;
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+	
+}
+
+h2 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.8em;
+	color:#666;
+	font-weight:bold;
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+	
+}
+
+h3 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.8em;
+	color:#666;
+	font-weight:bold;
+	margin: 5px 0px 10px 0px;
+	padding: 0px;
+	
+}
+
+p {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	color:#333;
+
+}
+
+.para {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	color:#333;
+}
+
+textarea {
+   font-size: 0.7em;
+   text-align: left;
+   color: #333;
+   font-family:Verdana, Arial, Helvetica, sans-serif;
+   width:150px;
+ }
+ 
+ .contact {
+   font-size: 0.7em;
+   text-align: left;
+   color: #333;
+   font-family:Verdana, Arial, Helvetica, sans-serif;
+   width:150px;
+ }
+
+.standard{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	color:#333;
+
+}
+
+
+#container{
+	margin: 0px auto;
+	width:766px;
+}
+
+#top{
+	background:url(../images/topbg.jpg) repeat-y top;
+	height:27px;
+}
+
+#top-left{
+	float:left;
+	clear:left;
+	margin: 0px 0px 0px 13px;
+}
+
+#top-right{
+	float:right;
+	clear:right;
+	height:21px;
+	padding:6px 10px 0px 0px;
+	width:140px;
+}
+
+#top-right a, top-right a:visited {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	color:#FFF;
+	text-decoration:none;
+	font-weight:lighter;
+}
+
+#nav {
+	background:url(../images/nav-bar.jpg) repeat-x top;
+	height: 70px;
+	width:766px;
+}
+
+#nav-left {
+	background:url(../images/logo.jpg) no-repeat left;
+	float:left;
+	clear:left;
+	height: 70px;
+	width: 300px;
+}
+
+#nav-right {
+	float:right;
+	clear:right;
+	padding:30px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	width:466px;
+	background:url(../images/nav-bar-lines.jpg) no-repeat top left;
+}
+
+#menu {
+	float:right;
+	margin:0px 0px 0px 0px;
+	font-family:tahoma;
+	font-size:14px;
+	font-weight:normal;
+	color:ffffff;
+
+}
+
+#menu ul {
+	margin:0px;
+	padding: 0px;
+
+}
+
+#menu ul li {
+	display:inline;
+	padding:0px 4px 0px 5px;
+	color:ffffff;
+
+}
+
+
+#menu ul li a {
+	
+	color:ffffff;
+	text-decoration:none;
+
+}
+
+#menu ul li a:visited {
+	
+	color:ffffff;
+	text-decoration:none;
+
+}
+
+#menu ul li a:hover {
+	
+	color:000000;
+
+}
+
+#newsletter {
+	background:url(../images/newsletter.jpg) top no-repeat;
+	height: 284px;
+	width: 229px;
+	float:left;
+	clear:left;
+}
+
+#newsletterform {
+	float:left;
+	padding: 137px 0px 0px 53px;
+	font-family:Tahoma;
+	font-size: 0.9em;
+	color:#333;
+}
+
+
+#banner {
+	background:url(../images/banner.jpg) top no-repeat;
+	height: 217px;
+	width: 537px;
+	float:right;
+	clear:right;
+}
+
+#feature-image{
+	padding:17px 4px 0px 28px;
+	float:left;
+	clear:left;}
+
+#content{
+	float:right;
+	margin: 0px 0px 10px 20px;
+	width: 517px;
+}
+
+#lenders{
+	float:right;
+	height:368px;
+	width:200px;
+	padding: 12px 26px 0px 10px;
+	text-decoration:right;
+}
+
+#footer{
+	background:url(../images/footer-bg.jpg) repeat-x top;
+	height:28px;
+	width:766px;
+	clear:both;
+	margin:auto;
+}
+#footerleft{
+	float:left;
+	clear:left;
+	margin:8px 0px 0px 15px;
+	font-family:Tahoma;
+	font-size: 0.7em;
+	color:#333;
+}
+
+#footerright{
+	float:right;
+	clear:right;
+	margin:8px 15px 0px 0px;
+	font-family:Tahoma;
+	font-size: 0.7em;
+	color:#333;
+}
+
+#footerright a, a:visited{
+	text-decoration:underline;
+	color:#333;
+}
+
+#footerright a:hover{
+	text-decoration:underline;
+	color:#ccc;
+}
+
+#contactform{
+	float:right;
+	height:368px;
+	width:175px;
+	margin:10px 0px 0px 0px;
+	padding: 12px 26px 0px 35px;
+	background:url(../images/contact-form-bg.jpg) no-repeat center top;
+	text-align:left;
+}
+
+.form{
+	margin:2px 0px;
+	padding:0px;
+}
+
+#left{
+	float:left;
+	margin: 0px 3px 0px 0px;
+	
+}
+
+#right{
+	float:left;
+	
+	width: 140px;
+}
+.associates-pic{
+	float:left;
+	width:150px;
+	margin:15px 5px 0px 0px;
+	border:#CCC 1px solid;
+}
+.associates-pic-holder{
+	float:left;
+	width:150px;
+	
+
+}
+.associates-text{
+	float:left;
+	width:350px;
+	margin: 0px 0px 0px 8px;
+}
+.associates{
+	float:left;
+	border-bottom:#CCC solid 1px;
+	
+
+}
